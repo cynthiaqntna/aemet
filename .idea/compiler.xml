@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feeder" />
+        <module name="temperature-api" />
+        <module name="datamart-builder" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="datamart-builder" target="11" />
+      <module name="feeder" target="11" />
+      <module name="temperature-api" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
